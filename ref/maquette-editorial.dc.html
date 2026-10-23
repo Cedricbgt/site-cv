@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Cédric Bagot, style éditorial</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F4F1EA}
+html{scroll-behavior:smooth}
+a{color:#16181D}a:hover{color:#1F4FD8}
+a:focus-visible{outline:2px solid #1F4FD8;outline-offset:3px}
+@keyframes cvcaret{50%{opacity:0}}
+.cv-caret{animation:cvcaret 0.9s steps(1) infinite}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #F4F1EA; color: #16181D; font-family: 'Inter', system-ui, sans-serif">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 24px; box-sizing: border-box">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; padding: 28px 0; border-bottom: 1px solid #16181D">
+      <a href="#top" style="font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; text-decoration: none">Cédric Bagot</a>
+      <nav aria-label="Navigation principale" style="display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 15px">
+        <a href="#parcours" style="text-decoration: none">Parcours</a>
+        <a href="#formation" style="text-decoration: none">Formation</a>
+        <a href="#stack" style="text-decoration: none">Stack</a>
+        <a href="#labo" style="text-decoration: none">Labo IA</a>
+        <a href="#contact" style="text-decoration: none">Contact</a>
+      </nav>
+    </header>
+
+    <section id="top" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px; padding: 72px 0 88px; border-bottom: 1px solid #16181D">
+      <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+        <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: {{accent}}">Portfolio · Sophia Antipolis</p>
+        <h1 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(40px, 6vw, 80px); line-height: 1.05; letter-spacing: -0.02em">Ingénieur DevOps,<br>développeur,<span style="display: block; height: 1.2em; white-space: nowrap; overflow: hidden"><em style="color: {{accent}}">{{typed}}</em><span class="cv-caret" aria-hidden="true" style="display: inline-block; width: 0.06em; height: 0.85em; margin-left: 0.04em; vertical-align: -0.08em; background: {{accent}}"></span></span></h1>
+        <p style="margin: 0; max-width: 520px; font-size: 19px; line-height: 1.6; color: #4A4F5A">Alternant chez Formasup Méditerranée et étudiant en M1 MIAGE à l'Université Côte d'Azur. Je fais tourner Cactus, un ERP Symfony hébergé sur AWS, du pipeline jusqu'à la fonctionnalité.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px">
+          <a href="#parcours" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; background: #16181D; color: #F4F1EA; text-decoration: none; font-weight: 500">Lire le parcours</a>
+          <a href="https://linkedin.com/in/cedric-bagot" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border: 1px solid #16181D; text-decoration: none; font-weight: 500">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div style="flex: 1 1 420px; min-width: 0; height: 520px; position: relative">
+        <canvas ref="{{canvasRef}}" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block"></canvas>
+        <p style="position: absolute; left: 0; bottom: 0; margin: 0; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #5A5F6B">Fig. 1 · Infrastructure, vue en rotation</p>
+      </div>
+    </section>
+
+    <section id="parcours" style="padding: 88px 0; border-bottom: 1px solid #16181D; display: flex; flex-direction: column; gap: 8px">
+      <h2 style="margin: 0 0 32px; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(36px, 5vw, 60px)">Parcours</h2>
+
+      <article style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 28px 0; border-top: 1px solid #CFC9BC">
+        <p style="margin: 0; flex: 0 0 200px; font-family: 'Fraunces', serif; font-size: 28px; color: {{accent}}">2024 · auj.</p>
+        <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <h3 style="margin: 0; font-size: 21px; font-weight: 600">Ingénieur DevOps en alternance</h3>
+          <p style="margin: 0; font-size: 15px; color: #5A5F6B">Formasup Méditerranée, Nice</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2E323B">Maintenance et évolution de Cactus, ERP sur AWS en Symfony 6 : pipelines de déploiement, administration serveurs, monitoring et nouvelles fonctionnalités avec l'équipe produit.</p>
+        </div>
+      </article>
+      <article style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 28px 0; border-top: 1px solid #CFC9BC">
+        <p style="margin: 0; flex: 0 0 200px; font-family: 'Fraunces', serif; font-size: 28px; color: #5A5F6B">2021 · 2024</p>
+        <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <h3 style="margin: 0; font-size: 21px; font-weight: 600">Ingénieur systèmes d'information</h3>
+          <p style="margin: 0; font-size: 15px; color: #5A5F6B">Formasup Méditerranée, Tallard</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2E323B">Responsable du SI d'un centre de formation : infrastructure, outillage interne, bases de données et projets transverses. Interlocuteur unique pour le numérique de tous les services.</p>
+        </div>
+      </article>
+      <article style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 28px 0; border-top: 1px solid #CFC9BC">
+        <p style="margin: 0; flex: 0 0 200px; font-family: 'Fraunces', serif; font-size: 28px; color: #5A5F6B">2020 · 2021</p>
+        <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <h3 style="margin: 0; font-size: 21px; font-weight: 600">Développeur web</h3>
+          <p style="margin: 0; font-size: 15px; color: #5A5F6B">Formasup Méditerranée, Tallard</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2E323B">Applications web internes en Django pour les opérations quotidiennes, pendant une phase de forte croissance.</p>
+        </div>
+      </article>
+      <article style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 28px 0; border-top: 1px solid #CFC9BC">
+        <p style="margin: 0; flex: 0 0 200px; font-family: 'Fraunces', serif; font-size: 28px; color: #5A5F6B">2019 · 2020</p>
+        <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <h3 style="margin: 0; font-size: 21px; font-weight: 600">Développeur full-stack en alternance</h3>
+          <p style="margin: 0; font-size: 15px; color: #5A5F6B">Formasup Méditerranée, Tallard</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2E323B">Interface web d'accès aux documents qualité, en appui du renouvellement ISO 9001.</p>
+        </div>
+      </article>
+      <article style="display: flex; flex-wrap: wrap; gap: 12px 48px; padding: 28px 0; border-top: 1px solid #CFC9BC">
+        <p style="margin: 0; flex: 0 0 200px; font-family: 'Fraunces', serif; font-size: 28px; color: #5A5F6B">2019</p>
+        <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <h3 style="margin: 0; font-size: 21px; font-weight: 600">Stagiaire développeur web</h3>
+          <p style="margin: 0; font-size: 15px; color: #5A5F6B">PRO'INFO, Saint-Péray</p>
+          <p style="margin: 0; font-size: 17px; line-height: 1.65; color: #2E323B">Première immersion professionnelle en développement web.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="formation" style="padding: 88px 0; border-bottom: 1px solid #16181D; display: flex; flex-direction: column; gap: 40px">
+      <h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(36px, 5vw, 60px)">Formation</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px 32px">
+        <div style="display: flex; flex-direction: column; gap: 8px; border-top: 3px solid {{accent}}; padding-top: 16px">
+          <p style="margin: 0; font-size: 13px; color: #5A5F6B">2025 · en cours</p>
+          <h3 style="margin: 0; font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600">M1 MIAGE, IA appliquée</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4F5A">Université Côte d'Azur</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #16181D; padding-top: 18px">
+          <p style="margin: 0; font-size: 13px; color: #5A5F6B">2024 · 2025</p>
+          <h3 style="margin: 0; font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600">Licence MIASHS, MIAGE</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4F5A">Université Côte d'Azur · mention Bien</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #16181D; padding-top: 18px">
+          <p style="margin: 0; font-size: 13px; color: #5A5F6B">2019 · 2020</p>
+          <h3 style="margin: 0; font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600">LP Web &amp; Big Data</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4F5A">IUT d'Aix-Marseille · mention Assez bien</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #16181D; padding-top: 18px">
+          <p style="margin: 0; font-size: 13px; color: #5A5F6B">2017 · 2019</p>
+          <h3 style="margin: 0; font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600">DUT Informatique</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #4A4F5A">IUT de Valence, Université Grenoble Alpes</p>
+        </div>
+      </div>
+      <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #2E323B; max-width: 760px"><strong>Certification SkyReal.</strong> Développement VR sur Unreal Engine : scénarios immersifs pour la maintenance aéronautique, en 3D temps réel.</p>
+    </section>
+
+    <section id="stack" style="padding: 88px 0; border-bottom: 1px solid #16181D; display: flex; flex-direction: column; gap: 32px">
+      <h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(36px, 5vw, 60px)">Stack</h2>
+      <p style="margin: 0; font-family: 'Fraunces', serif; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.35">AWS / Docker / CI/CD / Linux / Bash / <em style="color: {{accent}}">Symfony 6</em> / Django / PHP / Python / API REST / SQL / MySQL / PostgreSQL / Twig / JavaScript / <em style="color: {{accent}}">Machine learning</em> / Unreal Engine</p>
+      <p style="margin: 0; font-size: 16px; color: #4A4F5A">Français natif · Anglais professionnel · Créole mauricien courant</p>
+    </section>
+
+    <section id="labo" style="padding: 88px 0; border-bottom: 1px solid #16181D; display: flex; flex-direction: column; gap: 40px">
+      <div style="display: flex; flex-wrap: wrap; gap: 16px 48px; align-items: flex-end; justify-content: space-between">
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: {{accent}}">Expérience interactive</p>
+          <h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(36px, 5vw, 60px)">Labo IA</h2>
+        </div>
+        <p style="margin: 0; max-width: 520px; font-size: 17px; line-height: 1.6; color: #4A4F5A">Dessinez un chiffre de 0 à 9. Un petit réseau de neurones que j'ai entraîné sur MNIST le reconnaît en direct, entièrement dans votre navigateur.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
+        <div style="flex: 0 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+          <canvas ref="{{padRef}}" role="img" aria-label="Zone de dessin : dessinez un chiffre à la souris ou au doigt" style="width: 100%; max-width: 320px; aspect-ratio: 1; background: #FFFFFF; border: 1px solid #16181D; touch-action: none; cursor: crosshair; display: block"></canvas>
+          <div style="display: flex; gap: 12px; align-items: center; justify-content: space-between">
+            <p style="margin: 0; font-size: 13px; line-height: 1.4; color: #5A5F6B">MLP 196 → 64 → 10<br>~94 % en validation</p>
+            <button type="button" onClick="{{clear}}" style="min-height: 44px; padding: 0 20px; border: 1px solid #16181D; background: transparent; color: #16181D; font: inherit; font-weight: 500; cursor: pointer">Effacer</button>
+          </div>
+        </div>
+        <div style="flex: 0 0 200px; display: flex; flex-direction: column; gap: 4px">
+          <p style="margin: 0; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #5A5F6B">Prédiction</p>
+          <p style="margin: 0; font-family: 'Fraunces', serif; font-size: 160px; line-height: 1; color: {{accent}}">{{guess}}</p>
+          <p style="margin: 0; font-size: 15px; color: #4A4F5A">{{confText}}</p>
+        </div>
+        <div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+          <sc-for list="{{bars}}" as="b" hint-placeholder-count="10">
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 14px">
+              <span style="width: 16px; font-weight: 600">{{b.d}}</span>
+              <div style="flex: 1; height: 14px; background: #E6E1D6"><div style="{{b.style}}"></div></div>
+              <span style="width: 48px; text-align: right; color: #5A5F6B; font-variant-numeric: tabular-nums">{{b.pct}}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="padding: 104px 0; display: flex; flex-direction: column; gap: 32px">
+      <h2 style="margin: 0; font-family: 'Fraunces', serif; font-weight: 400; font-size: clamp(44px, 7vw, 96px); line-height: 1">Écrivez-moi.</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px 32px; font-size: 19px">
+        <a href="mailto:[VOTRE EMAIL]">[VOTRE EMAIL]</a>
+        <a href="https://linkedin.com/in/cedric-bagot">linkedin.com/in/cedric-bagot</a>
+      </div>
+      <p style="margin: 48px 0 0; font-size: 13px; color: #5A5F6B">© 2026 Cédric Bagot</p>
+    </section>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#1F4FD8","options":["#1F4FD8","#C2410C","#0F766E","#16181D"]},"phrases":{"editor":"text","default":"curieux d&#39;IA.\nrigoureux.\nautonome.\naccro au CI/CD.\ncloud &amp; AWS.\nfull-stack.","section":"Machine à écrire"},"speed":{"editor":"range","default":1,"min":0,"max":3,"step":0.1,"section":"3D"},"$preview":{"width":1440,"height":4400}}'>
+class Component extends DCLogic {
+  componentDidMount() {
+    const t = (1 + Math.sqrt(5)) / 2;
+    const base = [[-1,t,0],[1,t,0],[-1,-t,0],[1,-t,0],[0,-1,t],[0,1,t],[0,-1,-t],[0,1,-t],[t,0,-1],[t,0,1],[-t,0,-1],[-t,0,1]].map((v) => this.norm(v));
+    const verts = base.slice();
+    for (let i = 0; i < 12; i++) for (let j = i + 1; j < 12; j++) {
+      if (this.dist(base[i], base[j]) < 1.1) verts.push(this.norm([base[i][0] + base[j][0], base[i][1] + base[j][1], base[i][2] + base[j][2]]));
+    }
+    let min = 9;
+    for (let i = 0; i < verts.length; i++) for (let j = i + 1; j < verts.length; j++) min = Math.min(min, this.dist(verts[i], verts[j]));
+    const edges = [];
+    for (let i = 0; i < verts.length; i++) for (let j = i + 1; j < verts.length; j++) if (this.dist(verts[i], verts[j]) < min * 1.25) edges.push([i, j]);
+    this.verts = verts; this.edges = edges;
+    this.mouse = { x: 0, y: 0 }; this.rx = 0.3; this.ry = 0; this.spin = 0;
+    this.onMove = (e) => { this.mouse.x = (e.clientX / (window.innerWidth || 1)) * 2 - 1; this.mouse.y = (e.clientY / (window.innerHeight || 1)) * 2 - 1; };
+    window.addEventListener('pointermove', this.onMove);
+    this.reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    this.tick = this.tick.bind(this);
+    this.raf = requestAnimationFrame(this.tick);
+    this.tw = { i: 0, n: 0, del: false, wait: 0 };
+    this.timer = setInterval(() => this.step(), 65);
+    this.loadModel();
+  }
+  loadModel() {
+    fetch('/_blob/68157003afcd3616193159c98aa2594c').then((r) => r.json()).then((m) => {
+      const dq = (o) => { const bin = atob(o.d); const a = new Float32Array(bin.length); for (let i = 0; i < bin.length; i++) { let v = bin.charCodeAt(i); if (v > 127) v -= 256; a[i] = v * o.s; } return a; };
+      this.model = { w1: dq(m.w1), w2: dq(m.w2), b1: m.b1, b2: m.b2, nin: m.w1.shape[0], nh: m.w1.shape[1] };
+      this.setState({ ready: true });
+    }).catch(() => this.setState({ loadErr: true }));
+  }
+  attachPad(el) {
+    if (el === this.pad) return;
+    this.pad = el;
+    if (!el) return;
+    el.width = 280; el.height = 280;
+    const ctx = el.getContext('2d');
+    ctx.fillStyle = '#FFFFFF'; ctx.fillRect(0, 0, 280, 280);
+    const pos = (e) => { const r = el.getBoundingClientRect(); return [(e.clientX - r.left) * 280 / r.width, (e.clientY - r.top) * 280 / r.height]; };
+    const line = (a, b) => { ctx.strokeStyle = '#16181D'; ctx.lineWidth = 20; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke(); };
+    const schedule = () => { if (this.pending) return; this.pending = true; requestAnimationFrame(() => { this.pending = false; this.predict(); }); };
+    el.addEventListener('pointerdown', (e) => { e.preventDefault(); try { el.setPointerCapture(e.pointerId); } catch (err) {} this.drawing = true; this.last = pos(e); line(this.last, [this.last[0] + 0.1, this.last[1]]); schedule(); });
+    el.addEventListener('pointermove', (e) => { if (!this.drawing) return; const p = pos(e); line(this.last, p); this.last = p; schedule(); });
+    const end = () => { if (!this.drawing) return; this.drawing = false; this.predict(); };
+    el.addEventListener('pointerup', end);
+    el.addEventListener('pointercancel', end);
+    el.addEventListener('pointerleave', end);
+  }
+  clearPad() {
+    if (this.pad) { const ctx = this.pad.getContext('2d'); ctx.fillStyle = '#FFFFFF'; ctx.fillRect(0, 0, 280, 280); }
+    this.setState({ probs: null });
+  }
+  predict() {
+    if (!this.model || !this.pad) return;
+    const d = this.pad.getContext('2d').getImageData(0, 0, 280, 280).data;
+    let minX = 280, minY = 280, maxX = -1, maxY = -1;
+    for (let y = 0; y < 280; y++) for (let x = 0; x < 280; x++) {
+      if (d[(y * 280 + x) * 4] < 200) { if (x < minX) minX = x; if (x > maxX) maxX = x; if (y < minY) minY = y; if (y > maxY) maxY = y; }
+    }
+    if (maxX < 0) { this.setState({ probs: null }); return; }
+    if (!this.off) { this.off = document.createElement('canvas'); this.off.width = 28; this.off.height = 28; }
+    const o = this.off.getContext('2d');
+    const bw = maxX - minX + 1, bh = maxY - minY + 1, s = 20 / Math.max(bw, bh), dw = bw * s, dh = bh * s;
+    o.fillStyle = '#FFFFFF'; o.fillRect(0, 0, 28, 28);
+    o.imageSmoothingEnabled = true; o.imageSmoothingQuality = 'high';
+    o.drawImage(this.pad, minX, minY, bw, bh, (28 - dw) / 2, (28 - dh) / 2, dw, dh);
+    const px = o.getImageData(0, 0, 28, 28).data;
+    const a = new Float32Array(784);
+    let m = 0, cx = 0, cy = 0;
+    for (let i = 0; i < 784; i++) { const v = Math.min(1, (1 - px[i * 4] / 255) * 1.3); a[i] = v; m += v; cx += v * (i % 28); cy += v * Math.floor(i / 28); }
+    const sx = m ? Math.round(13.5 - cx / m) : 0, sy = m ? Math.round(13.5 - cy / m) : 0;
+    const b = new Float32Array(784);
+    for (let y = 0; y < 28; y++) for (let x = 0; x < 28; x++) { const X = x - sx, Y = y - sy; if (X >= 0 && X < 28 && Y >= 0 && Y < 28) b[y * 28 + x] = a[Y * 28 + X]; }
+    const inp = new Float32Array(196);
+    for (let r = 0; r < 14; r++) for (let c = 0; c < 14; c++) inp[r * 14 + c] = (b[(2 * r) * 28 + 2 * c] + b[(2 * r) * 28 + 2 * c + 1] + b[(2 * r + 1) * 28 + 2 * c] + b[(2 * r + 1) * 28 + 2 * c + 1]) / 4;
+    const M = this.model, H = M.nh, hid = new Float32Array(H);
+    for (let j = 0; j < H; j++) { let sum = M.b1[j]; for (let i = 0; i < 196; i++) sum += inp[i] * M.w1[i * H + j]; hid[j] = sum > 0 ? sum : 0; }
+    const out = [];
+    for (let k = 0; k < 10; k++) { let sum = M.b2[k]; for (let j = 0; j < H; j++) sum += hid[j] * M.w2[j * 10 + k]; out.push(sum); }
+    const mx = Math.max.apply(null, out), ex = out.map((v) => Math.exp(v - mx)), tot = ex.reduce((p, q) => p + q, 0);
+    this.setState({ probs: ex.map((v) => v / tot) });
+  }
+  componentWillUnmount() { cancelAnimationFrame(this.raf); clearInterval(this.timer); window.removeEventListener('pointermove', this.onMove); }
+  phrases() {
+    const raw = this.props.phrases ?? "curieux d'IA.\nrigoureux.\nautonome.\naccro au CI/CD.\ncloud & AWS.\nfull-stack.";
+    const list = String(raw).split('\n').map((s) => s.trim()).filter(Boolean);
+    return list.length ? list : ["curieux d'IA."];
+  }
+  step() {
+    const list = this.phrases(), t = this.tw, p = list[t.i % list.length];
+    if (t.wait > 0) { t.wait--; return; }
+    if (!t.del) {
+      if (t.n < p.length) t.n++;
+      else { t.del = true; t.wait = 28; }
+    } else {
+      if (t.n > 0) t.n = Math.max(0, t.n - 1);
+      else { t.del = false; t.i++; t.wait = 6; }
+    }
+    this.setState({ typed: p.slice(0, t.n) });
+  }
+  norm(v) { const l = Math.hypot(v[0], v[1], v[2]); return [v[0] / l, v[1] / l, v[2] / l]; }
+  dist(a, b) { return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]); }
+  tick() {
+    this.raf = requestAnimationFrame(this.tick);
+    const c = this.canvas; if (!c || !this.verts) return;
+    const w = c.clientWidth, h = c.clientHeight; if (!w || !h) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (c.width !== Math.round(w * dpr) || c.height !== Math.round(h * dpr)) { c.width = Math.round(w * dpr); c.height = Math.round(h * dpr); }
+    const ctx = c.getContext('2d'); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, w, h);
+    const speed = (this.props.speed ?? 1) * (this.reduced ? 0.2 : 1);
+    this.spin += 0.003 * speed;
+    this.rx += ((0.3 + this.mouse.y * 0.3) - this.rx) * 0.04;
+    this.ry += (this.mouse.x * 0.5 - this.ry) * 0.04;
+    const ay = this.spin + this.ry, ax = this.rx;
+    const cY = Math.cos(ay), sY = Math.sin(ay), cX = Math.cos(ax), sX = Math.sin(ax);
+    const ox = w / 2, oy = h / 2 - 10, R = Math.min(w, h) * 0.36;
+    const P = (v, r) => { const x1 = v[0] * cY + v[2] * sY, z1 = -v[0] * sY + v[2] * cY, y2 = v[1] * cX - z1 * sX, z2 = v[1] * sX + z1 * cX, s = 3 / (3 - z2 * r); return { X: ox + x1 * R * r * s, Y: oy + y2 * R * r * s, z: z2 }; };
+    const accent = this.props.accent ?? '#1F4FD8';
+    ctx.strokeStyle = 'rgba(22,24,29,0.18)'; ctx.lineWidth = 1;
+    for (let k = 0; k < 2; k++) {
+      ctx.beginPath();
+      for (let a = 0; a <= 64; a++) {
+        const th = a / 64 * Math.PI * 2;
+        const v = k === 0 ? [Math.cos(th), 0, Math.sin(th)] : [Math.cos(th), Math.sin(th) * 0.25, Math.sin(th)];
+        const p = P(v, 1.35 + k * 0.15);
+        if (a === 0) ctx.moveTo(p.X, p.Y); else ctx.lineTo(p.X, p.Y);
+      }
+      ctx.stroke();
+    }
+    const pr = this.verts.map((v) => P(v, 1));
+    for (const e of this.edges) {
+      const a = pr[e[0]], b = pr[e[1]], d = ((a.z + b.z) / 2 + 1) / 2;
+      ctx.strokeStyle = 'rgba(22,24,29,' + (0.12 + d * 0.7).toFixed(3) + ')';
+      ctx.lineWidth = 0.6 + d;
+      ctx.beginPath(); ctx.moveTo(a.X, a.Y); ctx.lineTo(b.X, b.Y); ctx.stroke();
+    }
+    pr.forEach((p, i) => {
+      const d = (p.z + 1) / 2;
+      ctx.fillStyle = i < 12 ? accent : '#16181D';
+      ctx.globalAlpha = 0.2 + d * 0.8;
+      ctx.beginPath(); ctx.arc(p.X, p.Y, (i < 12 ? 4 : 2.4) * (0.7 + d * 0.5), 0, Math.PI * 2); ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+    const orb = P([Math.cos(this.spin * 3), 0, Math.sin(this.spin * 3)], 1.35);
+    ctx.fillStyle = accent; ctx.beginPath(); ctx.arc(orb.X, orb.Y, 5, 0, Math.PI * 2); ctx.fill();
+  }
+  renderVals() {
+    const st = this.state || {};
+    const typed = typeof st.typed === 'string' ? st.typed : '';
+    const accent = this.props.accent ?? '#1F4FD8';
+    if (!this._padRef) this._padRef = (el) => this.attachPad(el);
+    if (!this._clear) this._clear = () => this.clearPad();
+    const probs = st.probs || null;
+    let best = -1, bestP = 0;
+    if (probs) probs.forEach((p, i) => { if (p > bestP) { bestP = p; best = i; } });
+    const bars = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => {
+      const p = probs ? probs[d] : 0;
+      return { d: d, pct: Math.round(p * 100) + ' %', style: 'height: 100%; width: ' + (p * 100).toFixed(1) + '%; background: ' + (d === best ? accent : '#16181D') + '; transition: width 0.15s' };
+    });
+    const confText = st.loadErr ? 'Modèle indisponible' : !st.ready ? 'Chargement du modèle…' : probs ? 'Confiance : ' + Math.round(bestP * 100) + ' %' : 'Dessinez dans le cadre';
+    return { accent: accent, typed: typed, canvasRef: (el) => { this.canvas = el; }, padRef: this._padRef, clear: this._clear, bars: bars, guess: best >= 0 ? String(best) : '?', confText: confText };
+  }
+}
+</script>
+</body>
+</html>

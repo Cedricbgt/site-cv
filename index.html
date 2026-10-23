@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cédric Bagot, ingénieur DevOps et développeur</title>
+  <meta name="description" content="Cédric Bagot, ingénieur DevOps en alternance chez Formasup Méditerranée et étudiant en M1 MIAGE à l'Université Côte d'Azur.">
+  <meta name="theme-color" content="#F4F1EA">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+<!-- Les textes sont en français par défaut ; data-i18n / data-i18n-attr renvoient aux clés de src/i18n/*.ts. -->
+<a class="skip-link" href="#contenu" data-i18n="skip">Aller au contenu</a>
+<div class="page">
+  <div class="wrap">
+
+    <header class="site-header">
+      <a href="#top" class="logo">Cédric Bagot</a>
+      <div class="header-right">
+        <nav aria-label="Navigation principale" data-i18n-attr="aria-label:nav.label" class="nav">
+          <a href="#parcours" data-i18n="nav.parcours">Parcours</a>
+          <a href="#formation" data-i18n="nav.formation">Formation</a>
+          <a href="#stack" data-i18n="nav.stack">Stack</a>
+          <a href="#labo" data-i18n="nav.labo">Labo IA</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Langue" data-i18n-attr="aria-label:lang.label">
+          <button type="button" data-set-lang="fr" lang="fr" aria-label="Français" aria-pressed="true">FR</button>
+          <button type="button" data-set-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section id="top" class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Portfolio · Sophia Antipolis</p>
+          <h1 class="hero-title"><span data-i18n="hero.title">Ingénieur DevOps,<br>développeur,</span><span class="sr-only" id="typed-sr"> curieux d'IA.</span><span class="typed-line" aria-hidden="true"><em class="accent" id="typed">curieux d'IA.</em><span class="caret"></span></span></h1>
+          <p class="lead" data-i18n="hero.lead">Alternant chez Formasup Méditerranée et étudiant en M1 MIAGE à l'Université Côte d'Azur. Je fais tourner Cactus, un ERP Symfony hébergé sur AWS, du pipeline jusqu'à la fonctionnalité.</p>
+          <div class="actions">
+            <a href="#parcours" class="btn btn-primary" data-i18n="hero.cta">Lire le parcours</a>
+            <a href="https://linkedin.com/in/cedric-bagot" class="btn btn-outline">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-figure">
+          <canvas id="sphere" aria-hidden="true"></canvas>
+          <p class="caption" data-i18n="hero.caption">Fig. 1 · Infrastructure, vue en rotation</p>
+        </div>
+      </section>
+
+      <section id="parcours" class="section parcours" aria-labelledby="parcours-title">
+        <h2 id="parcours-title" class="section-title parcours-title" data-i18n="parcours.title">Parcours</h2>
+
+        <article class="job">
+          <p class="job-date current" data-i18n="job1.date">2024 · auj.</p>
+          <div class="job-body">
+            <h3 class="job-title" data-i18n="job1.title">Ingénieur DevOps en alternance</h3>
+            <p class="job-org">Formasup Méditerranée, Nice</p>
+            <p class="job-desc" data-i18n="job1.desc">Maintenance et évolution de Cactus, ERP sur AWS en Symfony 6 : pipelines de déploiement, administration serveurs, monitoring et nouvelles fonctionnalités avec l'équipe produit.</p>
+          </div>
+        </article>
+        <article class="job">
+          <p class="job-date">2021 · 2024</p>
+          <div class="job-body">
+            <h3 class="job-title" data-i18n="job2.title">Ingénieur systèmes d'information</h3>
+            <p class="job-org">Formasup Méditerranée, Tallard</p>
+            <p class="job-desc" data-i18n="job2.desc">Responsable du SI d'un centre de formation : infrastructure, outillage interne, bases de données et projets transverses. Interlocuteur unique pour le numérique de tous les services.</p>
+          </div>
+        </article>
+        <article class="job">
+          <p class="job-date">2020 · 2021</p>
+          <div class="job-body">
+            <h3 class="job-title" data-i18n="job3.title">Développeur web</h3>
+            <p class="job-org">Formasup Méditerranée, Tallard</p>
+            <p class="job-desc" data-i18n="job3.desc">Applications web internes en Django pour les opérations quotidiennes, pendant une phase de forte croissance.</p>
+          </div>
+        </article>
+        <article class="job">
+          <p class="job-date">2019 · 2020</p>
+          <div class="job-body">
+            <h3 class="job-title" data-i18n="job4.title">Développeur full-stack en alternance</h3>
+            <p class="job-org">Formasup Méditerranée, Tallard</p>
+            <p class="job-desc" data-i18n="job4.desc">Interface web d'accès aux documents qualité, en appui du renouvellement ISO 9001.</p>
+          </div>
+        </article>
+        <article class="job">
+          <p class="job-date">2019</p>
+          <div class="job-body">
+            <h3 class="job-title" data-i18n="job5.title">Stagiaire développeur web</h3>
+            <p class="job-org">PRO'INFO, Saint-Péray</p>
+            <p class="job-desc" data-i18n="job5.desc">Première immersion professionnelle en développement web.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="formation" class="section formation" aria-labelledby="formation-title">
+        <h2 id="formation-title" class="section-title" data-i18n="formation.title">Formation</h2>
+        <div class="degrees">
+          <div class="degree current">
+            <p class="degree-date" data-i18n="deg1.date">2025 · en cours</p>
+            <h3 class="degree-title" data-i18n="deg1.title">M1 MIAGE, IA appliquée</h3>
+            <p class="degree-school">Université Côte d'Azur</p>
+          </div>
+          <div class="degree">
+            <p class="degree-date">2024 · 2025</p>
+            <h3 class="degree-title" data-i18n="deg2.title">Licence MIASHS, MIAGE</h3>
+            <p class="degree-school" data-i18n="deg2.school">Université Côte d'Azur · mention Bien</p>
+          </div>
+          <div class="degree">
+            <p class="degree-date">2019 · 2020</p>
+            <h3 class="degree-title" data-i18n="deg3.title">LP Web &amp; Big Data</h3>
+            <p class="degree-school" data-i18n="deg3.school">IUT d'Aix-Marseille · mention Assez bien</p>
+          </div>
+          <div class="degree">
+            <p class="degree-date">2017 · 2019</p>
+            <h3 class="degree-title" data-i18n="deg4.title">DUT Informatique</h3>
+            <p class="degree-school" data-i18n="deg4.school">IUT de Valence, Université Grenoble Alpes</p>
+          </div>
+        </div>
+        <p class="certif" data-i18n="certif"><strong>Certification SkyReal.</strong> Développement VR sur Unreal Engine : scénarios immersifs pour la maintenance aéronautique, en 3D temps réel.</p>
+      </section>
+
+      <section id="stack" class="section stack" aria-labelledby="stack-title">
+        <h2 id="stack-title" class="section-title">Stack</h2>
+        <p class="stack-list" data-i18n="stack.list">AWS / Docker / CI/CD / Linux / Bash / <em class="accent">Symfony 6</em> / Django / PHP / Python / API REST / SQL / MySQL / PostgreSQL / Twig / JavaScript / <em class="accent">Machine learning</em> / Unreal Engine</p>
+        <p class="languages" data-i18n="stack.languages">Français natif · Anglais professionnel · Créole mauricien courant</p>
+      </section>
+
+      <section id="labo" class="section labo" aria-labelledby="labo-title">
+        <div class="labo-head">
+          <div class="labo-head-title">
+            <p class="eyebrow" data-i18n="labo.eyebrow">Expérience interactive</p>
+            <h2 id="labo-title" class="section-title" data-i18n="labo.title">Labo IA</h2>
+          </div>
+          <p class="labo-intro" data-i18n="labo.intro">Dessinez un chiffre de 0 à 9. Un petit réseau de neurones que j'ai entraîné sur MNIST le reconnaît en direct, entièrement dans votre navigateur.</p>
+        </div>
+        <div class="labo-grid">
+          <div class="pad-col">
+            <canvas id="pad" class="pad" role="img" aria-label="Zone de dessin : dessinez un chiffre à la souris ou au doigt" data-i18n-attr="aria-label:labo.pad"></canvas>
+            <div class="pad-footer">
+              <p class="model-info" data-i18n="labo.model">MLP 196 → 64 → 10<br>~94 % en validation</p>
+              <button type="button" id="pad-clear" class="btn-clear" data-i18n="labo.clear">Effacer</button>
+            </div>
+          </div>
+          <div class="prediction">
+            <p class="prediction-label" data-i18n="labo.prediction">Prédiction</p>
+            <p class="prediction-digit" id="guess">?</p>
+            <p class="prediction-conf" id="conf">Chargement du modèle…</p>
+          </div>
+          <div class="bars" id="bars"></div>
+          <p class="sr-only" id="lab-status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="contact-title" data-i18n="contact.title">Écrivez-moi.</h2>
+        <div class="contact-links">
+          <a href="mailto:[VOTRE EMAIL]">[VOTRE EMAIL]</a>
+          <a href="https://linkedin.com/in/cedric-bagot">linkedin.com/in/cedric-bagot</a>
+        </div>
+        <p class="copyright">© 2026 Cédric Bagot</p>
+      </section>
+    </main>
+  </div>
+</div>
+</body>
+</html>
