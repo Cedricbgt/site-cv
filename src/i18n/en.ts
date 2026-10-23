@@ -3,7 +3,7 @@ import type { Messages } from './fr';
 export const en: Messages = {
   meta: {
     title: 'Cédric Bagot, DevOps engineer and developer',
-    description: "Cédric Bagot, work-study DevOps engineer at Formasup Méditerranée and first-year MIAGE master's student at Université Côte d'Azur.",
+    description: "Cédric Bagot, work-study DevOps engineer at Formasup Méditerranée and MIAGE master's student at Université Côte d'Azur.",
   },
 
   typewriter: [
@@ -26,7 +26,7 @@ export const en: Messages = {
     'lang.label': 'Language',
 
     'hero.title': 'DevOps engineer,<br>developer,',
-    'hero.lead': "Work-study student at Formasup Méditerranée and first-year MIAGE master's student at Université Côte d'Azur. I run Cactus, a Symfony ERP hosted on AWS, from the pipeline to the feature.",
+    'hero.lead': "Work-study student at Formasup Méditerranée and MIAGE master's student at Université Côte d'Azur. I run Cactus, a Symfony ERP hosted on AWS, from the pipeline to the feature.",
     'hero.cta': 'Read my experience',
     'hero.caption': 'Fig. 1 · Infrastructure, rotating view',
 
@@ -45,7 +45,7 @@ export const en: Messages = {
 
     'formation.title': 'Education',
     'deg1.date': '2025 · ongoing',
-    'deg1.title': "Master's year 1, MIAGE, applied AI",
+    'deg1.title': "Master's in MIAGE, applied AI",
     'deg2.title': "Bachelor's in MIASHS, MIAGE track",
     'deg2.school': "Université Côte d'Azur · with honours",
     'deg3.title': "Professional bachelor's, Web &amp; Big Data",

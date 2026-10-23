@@ -5,7 +5,7 @@
 export const fr = {
   meta: {
     title: 'Cédric Bagot, ingénieur DevOps et développeur',
-    description: "Cédric Bagot, ingénieur DevOps en alternance chez Formasup Méditerranée et étudiant en M1 MIAGE à l'Université Côte d'Azur.",
+    description: "Cédric Bagot, ingénieur DevOps en alternance chez Formasup Méditerranée et étudiant en master MIAGE à l'Université Côte d'Azur.",
   },
 
   /** Phrases de la machine à écrire, dans l'ordre. */
@@ -29,7 +29,7 @@ export const fr = {
     'lang.label': 'Langue',
 
     'hero.title': 'Ingénieur DevOps,<br>développeur,',
-    'hero.lead': "Alternant chez Formasup Méditerranée et étudiant en M1 MIAGE à l'Université Côte d'Azur. Je fais tourner Cactus, un ERP Symfony hébergé sur AWS, du pipeline jusqu'à la fonctionnalité.",
+    'hero.lead': "Alternant chez Formasup Méditerranée et étudiant en master MIAGE à l'Université Côte d'Azur. Je fais tourner Cactus, un ERP Symfony hébergé sur AWS, du pipeline jusqu'à la fonctionnalité.",
     'hero.cta': 'Lire le parcours',
     'hero.caption': 'Fig. 1 · Infrastructure, vue en rotation',
 
@@ -48,7 +48,7 @@ export const fr = {
 
     'formation.title': 'Formation',
     'deg1.date': '2025 · en cours',
-    'deg1.title': 'M1 MIAGE, IA appliquée',
+    'deg1.title': 'Master MIAGE, IA appliquée',
     'deg2.title': 'Licence MIASHS, MIAGE',
     'deg2.school': "Université Côte d'Azur · mention Bien",
     'deg3.title': 'LP Web &amp; Big Data',
